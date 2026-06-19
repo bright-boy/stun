@@ -1,8 +1,15 @@
-name = "v20251104"
+name = "stun"
 main = "_worker.js"
-compatibility_date = "2025-11-04"
+compatibility_date = "2026-06-19"
 keep_vars = true
 
-#[[kv_namespaces]]
-#binding = "KV"			#KV绑定名默认不可修改
-#id = ""				#KV数据库id
+[[kv_namespaces]]
+binding = "KV"
+id = "dbcc7f7c702246998fff94c321f8d60f"
+
+[vars]                                                                                                                                                                                                                                            
+ADMIN = "6480789521"                                                                                                                                                                                                                              
+UUID = "e82b6856-e4f7-4dba-8a0c-0e4a65ae54c9"
+
+[placement]
+mode = "smart"
